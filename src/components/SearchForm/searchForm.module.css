@@ -1,0 +1,38 @@
+#searchForm form {
+    position:relative;
+	height:40px;
+	margin:20px 0 20px 19px;
+	padding-left:49px;
+	border-left:1px solid #ccc;
+    font-family: FontAwesome;
+}
+#searchForm form:before {
+	content: "\f002";
+	position:absolute;
+	left:29px;
+	top:-2px;
+	height:40px;
+	line-height:40px;
+	font-size:15px;
+	color:#cccc;
+}
+#searchForm input {
+	width:42px;
+	margin:0;
+	padding:11px 0;
+	text-transform:none;
+	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	line-height:20px;
+	font-size: 13px;
+	color: #999;	
+	background: none;
+	border: 0;
+	box-shadow: none;	 
+	transition: all 0.3s ease-in-out; 
+	-webkit-transition: all 0.3s ease-in-out;
+}
+#searchForm input:focus {
+	width:140px;
+	padding: 11px 20px 11px 0;
+}

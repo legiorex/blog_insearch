@@ -1,0 +1,15 @@
+.menu {
+	position:fixed;
+	z-index:9999;
+	left:0;
+	top:0;
+	right:0;
+	height:80px;
+	width:100%;
+	background-color:#fff;
+	box-shadow:0 2px 3px rgba(0,0,0,0.1);
+}
+.menuContainer {
+    padding-left:0; 
+    padding-right:0;
+}

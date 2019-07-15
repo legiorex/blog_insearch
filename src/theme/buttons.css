@@ -1,0 +1,46 @@
+:root {
+    --button-size: 60px;
+  }
+
+.button {
+    color: var(--buttonColor);
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .button:hover {
+    background-color: var(--buttonHover);
+  }
+
+  .player__button {
+    display: flex;
+  }
+
+  .button__icon {
+    font-size: 20px;
+    line-height: inherit;
+    padding: 15px 16px;
+    box-sizing: border-box;
+    width: var(--button-size) !important;
+    height: var(--button-size) !important;
+    /* float: left; */
+  }
+
+  .button__text {
+  display: inline-block;
+  font-size: 16px;
+  line-height: inherit;
+  padding: 10px 16px;
+  box-sizing: border-box;
+}
+
+.button_width_available {
+    display: block;
+    width: 100%;
+  }
+  
+  .button_height_available {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }

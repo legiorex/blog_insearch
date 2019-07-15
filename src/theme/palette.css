@@ -1,0 +1,14 @@
+:root {
+    /* HEX */
+    --buttonColor: #fff;
+    --borderColor: #000;
+    --chapterHeaderBackground: #333;
+   
+    /* RGBA */
+    --mainBackgroundColor: rgba(255, 255, 255, 0.12549);
+    --buttonHover: rgba(255, 255, 255, 0.18824);
+
+    /* Gradients */
+    --gradient1: linear-gradient(var(--paletteColor21), var(--paletteColor17));
+    --gradient2: linear-gradient(var(--paletteColor16), var(--paletteColor17));
+}
