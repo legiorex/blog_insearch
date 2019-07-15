@@ -1,0 +1,23 @@
+.navMenu ul li {
+	position:relative;
+	display:inline-block;
+}
+
+.navMenu ul li a {
+	display:block;
+	margin:0 0 0 -3px;
+	padding:30px 20px;
+	text-transform:uppercase;
+	font-weight:900;
+	line-height:20px;
+	font-size:13px;
+	color:#666;
+	transition: all 0.3s ease-in-out; 
+    -webkit-transition: all 0.3s ease-in-out;
+    
+    &:hover {
+        color:#333;
+        text-decoration: none;
+    }
+}
+

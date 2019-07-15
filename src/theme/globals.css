@@ -1,5 +1,11 @@
+#project_prev.first, #project_next.last {cursor:default;}
+#project_prev.first:hover, #project_next.last:hover {border-color:#ccc;}
+#project_prev.first:hover i, #project_next.last:hover i {color:#ccc;}
 #page{
     overflow-x: hidden;
     position: relative;
     z-index: 5;
+}
+.center {
+    text-align: center;
 }

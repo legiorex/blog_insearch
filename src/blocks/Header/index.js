@@ -2,15 +2,15 @@
 import React from 'react';
 
 // Blocks
-import Menu from '../Menu';
+import MenuBlock from '../Menu';
 
 // Styles
-import Styles from './style.css';
+// import Styles from './style.css';
 
 const Header = () => (
 
   <>
-    <Menu />
+    <MenuBlock />
   </>
 );
 
